@@ -47,8 +47,8 @@ An existing website that shows this data is here: https://gridwatch.co.uk/
 ### What are you looking for in the solution?
 
 -  A **simple**, **readable**, **well-factored** solution - not the fanciest charting library or middleware components you can find
--  **Automated tests**
 -  Some form of visual styling - we don't care what technology you use for this but an un-styled `ul` is not going to cut it
+-  Automated tests
 
 ### Anything else I should know?
 
