@@ -57,11 +57,11 @@ An existing website that shows this data is here: https://gridwatch.co.uk/
 -  You can use any libraries that you want
 -  `npm start` will start a Webpack hot-reload dev server so you can make live changes
 -  Testing is appreciated
+-  Rquired to deploy the application on a public url
 -  We like TypeScript too
 -  We like simplicity - a more complicated solution is rarely better than a simple one
 -  Some types of chart seem like a really obvious fit but are not actually very good at showing small values in a data set.
 -  Extra points for showing the data in a way that is easy to understand at a glance
--  Extra points for deploying the app and give to us the link to see it in the final bundle.
 
 ## Finishing
 
