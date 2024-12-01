@@ -1,10 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { App } from './app';
+import reportWebVitals from './reportWebVitals';
+
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    (<React.StrictMode>
+  const root = ReactDOM.createRoot(document.getElementById("reactMountPoint") as HTMLElement);
+  root.render(
+    <React.StrictMode>
         <App />
-    </React.StrictMode>), document.getElementById('reactMountPoint'));
+    </React.StrictMode>
+  );
 });
+
+reportWebVitals(console.log);
